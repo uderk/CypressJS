@@ -1,6 +1,6 @@
 name: RunSpecificSpec
 
-on: push
+on: workflow_dispatch
 
 jobs:
   cypress-run:
