@@ -11,4 +11,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          command: cypress run --spec "C:/Users/venislav.zdravkov/HomeProjects/CypressJS/cypress/e2e/SecondExample.spec.cy.js"
+          command: cypress run --spec "cypress/e2e/SecondExample.spec.cy.js"
