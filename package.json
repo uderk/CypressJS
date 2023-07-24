@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runAll": "node_modules\\.bin\\cypress run -- --video=false",
+    "runAll": "node_modules//.bin//cypress run -- --video=false",
     "test": "cypress run"
   },
   "author": "",
