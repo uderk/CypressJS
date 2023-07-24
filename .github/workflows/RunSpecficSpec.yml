@@ -1,3 +1,5 @@
+name: RunSpecificSpec
+
 on: push
 
 jobs:
@@ -11,4 +13,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          command: cypress run --spec "cypress\e2e\TestExmple.spec.cy.js"
+          command: npx cypress run --spec cypress/e2e/SecondExample.spec.cy.js
