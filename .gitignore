@@ -1,0 +1,28 @@
+# Node.js / JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+*.log
+*.lock
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE-specific
+.idea/
+
+# Miscellaneous
+*.swp
+*.swo
+.DS_Store
