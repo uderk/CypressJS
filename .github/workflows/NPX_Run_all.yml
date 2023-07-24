@@ -1,6 +1,6 @@
 name: NPX_Run_All
 
-on: push
+on: workflow_dispatch
 
 jobs:
   cypress-run:
