@@ -1,0 +1,16 @@
+name: NPX_Run_All
+
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run the specific Cypress spec file
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+          command: npx cypress run
